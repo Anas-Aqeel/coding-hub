@@ -1,8 +1,6 @@
 import Container from "@components/container";
 import ThemeSwitch from "@components/themeSwitch";
-import Image from "next/image";
-import { myLoader } from "@utils/all";
-import VercelLogo from "../public/img/vercel.svg";
+
 
 export default function Footer(props) {
   return (
@@ -26,8 +24,7 @@ export default function Footer(props) {
         {/* Do not remove above link */}
       </div>
       <div className="flex items-center justify-between mt-2">
-        <div className="mt-5">
-        </div>
+        <div className="mt-5"></div>
         <ThemeSwitch />
       </div>
       <Backlink />
